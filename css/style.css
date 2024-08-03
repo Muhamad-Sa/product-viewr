@@ -1,0 +1,75 @@
+body {
+    background-image: url('../images/pexels-iriser-1379636.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+
+.head {
+    font-family: cursive;
+}
+
+.card-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-check-input {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-family: cursive;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+.add-product-btn {
+    text-decoration: none;
+    background-color: #076806;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 160px;
+}
+
+.add-product-btn:hover {
+    background-color: #075406;
+}
+
+.mass-delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    align-self: flex-end;
+}
+
+.mass-delete-btn:hover {
+    background-color: #c82333;
+}
+
+.card{
+    background-color: antiquewhite;
+}
+
+.form-check-input:checked {
+    background-color: #076806;
+    border-color: #28a745;
+}

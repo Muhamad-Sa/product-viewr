@@ -1,0 +1,47 @@
+body {
+    background-image: url('../images/pexels-iriser-1379636.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+.bt1 {
+    text-decoration: none;
+    background-color: #076806;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.bt1:hover {
+    background-color: #075406;
+}
+
+.bt2 {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    align-self: flex-end;
+}
+
+.bt2:hover {
+    background-color: #c82333;
+}
+
+.container h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 100px;
+}
+
+.container {
+    width: 900px;
+}
